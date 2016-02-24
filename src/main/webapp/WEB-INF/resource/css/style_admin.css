@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto&subset=cyrillic,cyrillic-ext,latin);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400italic&subset=latin,cyrillic-ext,cyrillic);
+.body{
+background-color:#F5F0E5;
+margin:0;
+padding:0;
+}
+.bar_list{
+	padding:6px;
+}
+.list_li{
+color: black;
+list-style-type: none; 
+margin-top:4px;
+margin-left:0px;
+background-color: #cad1ce;
+border: 1px solid white;	
+}
+
+.left_bar{
+font-size: 1.1em;
+font-family: 'Roboto', sans-serif;
+color: white;
+background-color:#137CC5;
+border: 1px solid #3B3C3F;
+width:300px;
+height:100%;
+margin:0;
+position:fixed;
+top:-15px;
+text-align: center;
+float: left;
+}
+.user_list_1{
+	font-size: 1.1em;
+	font-family: 'Roboto', sans-serif;
+	width:65%;
+	position: relative;
+	text-align: center;
+	left:320px;
+	top: 30px;
+}
+.user_list{
+	font-size: 1.0em;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+
+}
+
+.user_box{
+	margin: 0;
+	margin-bottom: 5px;
+	padding: 10px;
+	text-align:left;
+	border: 1px solid #285b8f;
+	background-color: #cae1ff;
+	border-radius: 5px;
+	}
+.user_box img{
+	border-radius: 5px;
+	margin:10px;
+	float: left;
+}
+.user_list h2{
+	margin-bottom: 40px;
+}
+.denied{
+	margin-left: 30px;
+}

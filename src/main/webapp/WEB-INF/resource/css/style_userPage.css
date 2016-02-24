@@ -1,0 +1,430 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans&subset=latin,cyrillic);
+body{
+ background-color: #1C85CE;
+margin: 0;
+ padding: 0;
+}
+
+.wraper{
+ margin: 0 5%;
+}
+.userBox{
+ margin: 0 auto;
+ width:850px;
+}
+
+.divAva {
+ width: 250px;
+ height: 250px;
+ text-align: center;
+ border: 2px solid white;
+ border-radius: 10px;
+ float:left;
+}
+.divAva img {
+ border-radius: 10px;
+ width:100%;
+ height:100%;
+}
+
+.searchBox h3{
+ margin:0;
+ padding:6px 15px;
+ color:#fff;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1.1em;
+ border-right:1px solid #BBB;
+ height:26px;
+ width:35%;
+ background-color:#5699C2;
+}
+.searchBox{
+ border-radius: 5px;
+ float:right;
+ width: 440px;
+ height: 38px;
+ background-color: #fff;
+
+}
+.searchButton{
+ border:none;
+ outline: none;
+ float:right;
+ margin:5px 3px;
+ padding:0;
+
+ width: 30px;
+ height: 30px;
+ background-color: #fff;
+ background-image: url('/resource/image/searchbut.png');
+ background-position: 0 0px; /* по умолчанию */
+ background-repeat: no-repeat;
+ background-size: 30px;
+}
+
+.searchButton:hover{
+
+ background-position: 0 -31px; /* по умолчанию */
+
+}
+.searchButton:active{
+
+ background-position: 0 -61px; /* по умолчанию */
+
+}
+.poisk{
+
+ float:right;
+}
+.poisk input[name='search']{
+ float:right;
+ margin:3px;
+ margin-left:10px;
+ color:#5D6871;
+ outline-color:#fff;
+ background-color:#fff;
+ border:none;
+ padding-left:0.5em;
+ font-size: 1.0em;
+ width:65%;
+ height:30px;
+}
+.resultBox{
+ overflow: auto;
+ border: 5px solid #167BAC;
+ margin-top:10px;
+ border-radius: 5px;
+ float:right;
+ width: 560px;
+ height: 600px;
+ background-color: #fff;
+}
+.divMenu {
+ border: 5px solid #167BAC;
+ padding:0;
+ background-color: #fff;
+ margin-top:0px;
+ width: 250px;
+ height: 100%;
+ text-align: center;
+ border-radius: 10px;
+ float:left;
+}
+ul {
+ margin-left: 0; /* Отступ слева в браузере IE и Opera */
+ padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+.divMenu li{
+ margin-top:6px;
+ padding:0;
+ color:#333;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1.1em;
+ list-style-type: none; /* Убираем маркеры */
+ background-color:#fff;
+}
+.divMenu h2{
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+ border-bottom: 1px solid #BBB;
+ width:100%;
+ background-color: #CCC;
+ margin:0;
+ padding:0;
+ color:#333;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1.4em;
+}
+.resultTitle{
+ width:250px;
+ background-color: #CCC;
+ margin:0;
+ margin-bottom: 5px;
+ padding:0;
+ padding-left:10px;
+ color:#333;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1.2em;
+ -webkit-border-bottom-right-radius: 10px;
+ -moz-border-radius-bottomright: 10px;
+ border-bottom-right-radius: 10px;
+ border: 1px solid #BBB;
+}
+
+.listUsers{
+ padding: 10px;
+ height: 50px;
+ border-bottom: 1px solid #BBB;
+ font-family: 'Montserrat', sans-serif;
+ color: #758da5;
+ font-size: 0.8em;
+}
+.avatarFriend{
+ width: 50px;
+ height: 50px;
+ overflow: hidden;
+ margin-left: 15px;
+ margin-right: 10px;
+ float: left;
+}
+.avatarFriend img{
+ height: 50px;
+ overflow: hidden;
+}
+.infoFriend{
+ float: left;
+ width: 250px;
+ padding: 1px;
+ margin-left: 15px;
+}
+.infoFriend p{
+ margin: 0;
+ padding: 0;
+}
+.utilFriend{
+
+ color: #344149;
+ width: 110px;
+ float:right;
+}
+.chatBegin{
+ color: #4d78a8;
+ padding: 4px;
+ padding-left: 30px;
+ text-align: right;
+ width: 57px;
+ font-family: 'Fira Sans', sans-serif;
+ font-size: 1.0em;
+ font-weight: 700;
+ text-decoration: none;
+ background-image: url('/resource/image/pero.png');
+ background-position: 2px -1px; /* по умолчанию */
+ background-repeat: no-repeat;
+ background-size: 20px;
+}
+
+
+.removeUser{
+ color: #96a7aa;
+ padding: 4px;
+ padding-left: 20px;
+ width: 100px;
+ font-family: 'Fira Sans', sans-serif;
+ font-size: 0.9em;
+ text-decoration: none;
+ background-image: url('/resource/image/remove.png');
+ background-position: 2px -1px; /* по умолчанию */
+ background-repeat: no-repeat;
+ background-size: 15px;
+}
+
+.login span{
+ color: #6293db;
+ font-weight: 700;
+ font-family: 'Fira Sans', sans-serif;
+ font-size: 1.0em
+}
+.fio{
+ color: #f0705b;
+ margin: 1px;
+ font-weight: 700;
+ font-family: 'Fira Sans', sans-serif;
+ font-size: 1.3em
+}
+.pMess{
+
+ min-width: 250px ;
+ position: absolute;
+ left: 40%;
+ top:30%;
+ width: 20%;
+ height: 120px;
+ border: 2px solid #43a550;
+ background: #eafbe4;
+ font-size: 1.0em;
+ font-family: 'Scada', sans-serif;
+ text-align: center;
+ z-index: 600;
+ color: #197417;
+}
+.nMess{
+
+ min-width: 250px ;
+ position: absolute;
+ left: 40%;
+ top:30%;
+ width: 20%;
+ height: 120px;
+ border: 2px solid #a34b60;
+ background: #fbedeb;
+ font-size: 1.0em;
+ font-family: 'Scada', sans-serif;
+ text-align: center;
+ z-index: 600;
+ color: #861822;
+}
+.pMess p{
+ text-align: center;
+ margin: 30px;
+
+
+}
+.nMess p{
+ text-align: center;
+ margin: 30px;
+
+}
+
+
+#returnUserContacts{
+ font-family: 'Fira Sans', sans-serif;
+ font-size: 1.2em;
+ color: #292729;
+}
+#returnUserContacts:hover{
+ cursor: pointer;
+ color: #656365;
+
+}
+
+.divForm {
+ border: 5px solid #167BAC;
+ padding:0;
+ background-color: #fff;
+ margin-top:10px;
+ width: 250px;
+ height: 100%;
+ text-align: center;
+ border-radius: 10px;
+ float:left;
+}
+#logo{
+position: relative;
+  width: 300px;
+
+}
+.home_ref{
+ width: 85px;
+ height: 40px;
+ margin: 30px;
+ color: #FFFFFF;
+ float: right;
+ background-image: url('/resource/image/home.png');
+ background-position: -2px -3px; /* по умолчанию */
+ background-repeat: no-repeat;
+ background-size: 35px;
+}
+.home_ref a{
+ font-family: 'Fira Sans', sans-serif;
+ font-size: 1.0em;
+ margin-top: 9px;
+  text-decoration: none;
+  color: #FFFFFF;
+  float: right;
+ }
+.home_ref a:hover{
+ cursor: pointer;
+ font-size: 1.1em;
+}
+.change_avatar{
+   width: 190px;
+   height: 40px;
+   margin: 3px;
+   color: #FFFFFF;
+   float: left;
+   background-image: url('/resource/image/camera.png');
+   background-position: 0 0; /* по умолчанию */
+   background-repeat: no-repeat;
+   background-size: 35px;
+  }
+.change_avatar p{
+ font-family: 'Fira Sans', sans-serif;
+ font-size: 0.9em;
+ margin-top: 9px;
+ text-decoration: none;
+ color: #FFFFFF;
+ float: left;
+ margin-left: 40px;
+}
+.change_avatar p:hover{
+ cursor: pointer;
+ font-size: 1.0em;
+}
+.avForm{
+ visibility: hidden;
+ min-width: 350px ;
+ position: absolute;
+ left: 35%;
+ top:30%;
+ width: 30%;
+ height: 25%;
+ border: 2px solid #43a550;
+ background: #9ecade;
+ font-size: 1.0em;
+ font-family: 'Scada', sans-serif;
+ font-weight: 900;
+ text-align: center;
+ z-index: 600;
+ color: #2c41ff;
+ background-image: url('/resource/image/fon.png');
+ background-position: 0 0; /* по умолчанию */
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+.avForm p{
+ width: 200px;
+ background: #9ecade;
+ margin: 10px;
+}
+.messBack
+{
+ margin: 0;
+ padding: 0;
+ position: absolute;
+ top:0;
+ lefl:0;
+ z-index: 500;
+ width: 100%;
+ height: 100%;
+ background: #747373; /* Цвет фона */
+ opacity: 0.7; /* Полупрозрачный фон */
+ filter: alpha(Opacity=70); /* Прозрачность в IE */
+ color: #414f50; /* Цвет текста */
+}
+.krest{
+ margin: 5px;
+ float: right;
+ width: 25px;
+}
+.friend{
+ text-align: left;
+ margin-right: 20px;
+ padding: 5px 0px 5px 30px;
+ background-image: url('/resource/image/galka.png');
+ background-position: 0 0; /* по умолчанию */
+ background-repeat: no-repeat;
+ background-size: 25px;
+ color: #7DC279;
+ font-size: 0.9em;
+ font-family: 'Fira Sans', sans-serif;
+ font-weight: 700;
+ float:right;
+ width: 130px;
+}
+.addContact{
+ text-decoration: none;
+ text-align: left;
+ margin-right: 20px;
+ padding: 5px 0px 5px 30px;
+ background-image: url('/resource/image/plus.png');
+ background-position: 0 0; /* по умолчанию */
+ background-repeat: no-repeat;
+ background-size: 25px;
+ color: #266ec2;
+ font-size: 0.9em;
+ font-family: 'Fira Sans', sans-serif;
+ font-weight: 700;
+ float:right;
+ width: 130px;
+}

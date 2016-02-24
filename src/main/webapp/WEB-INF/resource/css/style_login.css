@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Comfortaa:400,300&subset=latin,cyrillic);
+body{
+background-color: #1C85CE;
+}
+h3{
+cursor:default;
+font-family: 'Montserrat', sans-serif;
+font-size: 1.9em; 
+margin-bottom:8%;
+}
+.loginBox {
+color: white;
+text-align: center;
+margin: 2% auto;
+width: 370px;
+}
+.loginForm {
+padding: 5%;
+text-align:center;
+border-radius: 5px;
+background-color: #FFFFFF;
+height:300px;
+}
+.inputDiv{
+margin: 0 auto;
+margin-top: 10%;
+background-color:#E8ECEF;
+border: 1px solid #D6D7DA;
+border-radius: 3px;
+padding:0;
+padding-left: 2%;
+font-family: 'PT Serif', serif;
+width:80%;
+height:50px;
+text-align:right;
+}
+.inp{
+color:#5D6871;
+outline-color:#E8ECEF;
+background-color:#E8ECEF;
+border:none;
+padding:0.3em;
+font-size: 1.3em; 
+width:80%;
+height:50px;
+}
+.inp:focus{
+outline: none; 
+}
+
+.inputButton{
+margin-bottom:10px;
+margin-top:5%;
+border-radius: 3px;
+color:#fff;
+border:none;
+width:83%;
+height:50px;
+background-color:#137CC5;
+font-size: 1.3em; 
+border-bottom:2px solid #0059A2;
+}
+.inputButton:focus{
+cursor: pointer;
+outline: none;
+}
+.inputButton:hover{
+cursor: pointer;
+
+}
+.inputButton:active {
+border-bottom: none;
+}
+#div1{
+background-image: url('/resource/image/person.png');
+background-repeat: no-repeat;
+background-position:5px 7px;
+}
+#div2{
+background-image: url('/resource/image/keys.png');
+background-repeat: no-repeat;
+background-position:1px 1px; 
+}
+.link{
+font-family: 'Comfortaa', cursive;
+font-size: 1.3em; 
+margin:0;
+padding:0;
+}
+.p{
+cursor:default;
+margin:0;
+padding:0;
+font-family: 'Comfortaa', cursive;
+font-size: 1.1em; 
+}
+.a a{
+margin-left:200px;
+color: #999;
+text-decoration:none;
+padding:0;
+font-family: 'Comfortaa', cursive;
+font-size: 0.9em; 
+}
+.link a{
+color: white;
+text-decoration:none;
+text-decoration: underline;
+}
+#logo{
+width: 400px;
+}
+.error {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid #f2d0d6;
+    border-radius: 4px;
+    color: #a94442;
+    background-color: #f2d0d6;
+
+}
+
+.msg {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: #43858f;
+    background-color: #b8f7e0;
+
+}

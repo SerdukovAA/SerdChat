@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic);
+html,body {height:100%;}
+h2{
+font-family: 'Poiret One', cursive;
+}
+.wraper{
+border: 2px solid #333;
+border-radius: 30px; 
+width:50%;
+height:89%;
+margin: 0 auto;
+margin-top:30px;
+min-width:800px;
+max-width: 1200px;
+text-align:center;
+}
+img{
+border-radius: 30px; 
+}
+.button{
+font-family: 'Comfortaa', cursive;
+margin-top:10px;
+margin-bottom:15px;
+}
+.result{
+margin: 0 auto;
+width:98%;
+height:55%;
+border-radius: 30px; 
+border: 2px dashed green;
+}
+
